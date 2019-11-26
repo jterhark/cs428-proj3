@@ -8,6 +8,8 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="OpacityChanger.cs" t="Include" />
+          <e p="Teleporter.cs" t="Include" />
+          <e p="TeleportTrigger.cs" t="Include" />
         </e>
         <e p="Starfield Skybox" t="Include">
           <e p="Demo" t="Include">
