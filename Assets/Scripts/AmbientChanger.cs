@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Rendering;
 
 public class AmbientChanger : MonoBehaviour
 {
@@ -19,5 +20,15 @@ public class AmbientChanger : MonoBehaviour
     public void Change(float f)
     {
         RenderSettings.ambientIntensity = f;
+        RenderSettings.reflectionIntensity = f;
+        if (f.Equals(0.0f))
+        {
+            RenderSettings.ambientMode = AmbientMode.Flat;
+            RenderSettings.ambientLight = Color.black;
+        }
+        else
+        {
+            RenderSettings.ambientMode = AmbientMode.Skybox;
+        }
     }
 }

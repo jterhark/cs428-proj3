@@ -6,8 +6,14 @@
     <e p="C:\Users\jaket\Documents\cs428\proj3 - Copy" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
+        <e p="Material" t="Include">
+          <e p="text.shader" t="Include" />
+        </e>
         <e p="Scripts" t="Include">
           <e p="AmbientChanger.cs" t="Include" />
+          <e p="BooksPuzzle.cs" t="Include" />
+          <e p="Doors.cs" t="Include" />
+          <e p="Exit.cs" t="Include" />
           <e p="OpacityChanger.cs" t="Include" />
           <e p="Teleporter.cs" t="Include" />
           <e p="TeleportTrigger.cs" t="Include" />
